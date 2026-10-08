@@ -1,0 +1,6 @@
+# Environment used to generate and verify this release (Python 3.12.3)
+numpy==2.4.4
+scipy==1.17.1
+mpmath==1.3.0
+# The original v1.9 canonical values (Rung-1 energies, binary64 ladder) were produced under
+# Python 3.13.5 / NumPy 2.3.5 / SciPy 1.17.0; verify_all.py checks them against this environment.
